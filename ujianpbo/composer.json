@@ -1,0 +1,26 @@
+{
+    "name": "ujian/anna",
+    "description": "ujian pbo",
+    "license": "1",
+    "autoload": {
+        "psr-4": {
+            "Ujian\\Anna\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anna825",
+            "email": "223443004@mhs.polman-bandung.ac.id"
+        }
+    ],
+    "require": {
+        "php" : ">=8",
+        "twig/twig": "*",
+        "altorouter/altorouter": "*",
+        "respect/validation": "*",
+        "phpmailer/phpmailer": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    }
+}
